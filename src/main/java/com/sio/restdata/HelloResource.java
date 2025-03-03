@@ -13,7 +13,6 @@ public class HelloResource {
     @Inject private TodoRepository todoRepository;
 
     @GET
-    @Produces("text/plain")
     public List<Todo> hello() {
         return todoRepository.findAll().toList();
     }
