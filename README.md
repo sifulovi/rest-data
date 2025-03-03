@@ -1,3 +1,9 @@
+### Server
+Wildfly 35
+
+### Intellij idea
+2024.2.4 Ultimate Edition
+
 ```
 @Entity
 public class Todo {
